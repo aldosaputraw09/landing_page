@@ -1,0 +1,65 @@
+.text-blue {
+    --tw-text-opacity: 1;
+    color: rgb(0 56 222 / var(--tw-text-opacity));
+  }
+
+  .text-green {
+    --tw-text-opacity: 1;
+    color: rgb(13 173 142 / var(--tw-text-opacity));
+  }
+
+  .bg-green {
+    --tw-bg-opacity: 1;
+    background-color: rgb(13 173 142/var(--tw-bg-opacity));
+}
+/* 
+.wh-7 {
+    width: 1.75rem;
+    height: 1.75rem;
+} */
+
+.gambar {
+  height: 38px;
+}
+
+.star {
+  margin-top: -20px;
+  margin-left: -15px;
+  height: 70px;
+  width: 70px;
+}
+
+.floating{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+  font-size:30px;
+}
+
+.py-9 {
+  padding-top: 2.25rem; /* 36px */
+  padding-bottom: 2.25rem; /* 36px */
+}
+
+.px-5 {
+  padding-left: 1.25rem; /* 20px */
+  padding-right: 1.25rem; /* 20px */
+}
+
+.navi {
+  height: 50px;
+  width: 100%;
+  background-image:url("/nav.png");
+}
+
+
